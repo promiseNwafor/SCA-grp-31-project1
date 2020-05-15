@@ -109,12 +109,31 @@ header .header-image{
     transform: translateY(-0.2rem);
 }
   
-#section1 {
-    
+#section1 .box1-wrap, #section1 .box2-wrap{
+    width: 100%;
+    display: flex;
+    margin-bottom: 3rem;
+}
+  
+#section1 .box1-wrap div, #section1 .box2-wrap div{
+    width: 30%;
+}
+  
+#section2{
+    width: 100%;
+    display: flex;
+    margin-bottom: 3rem;
 }
 
-#section1 div {
-    
+#section2 div{
+    width: 50%;
+}
+
+  
+#section3 .box-wrap{
+    width: 100%;
+    display: flex;
+    margin-bottom: 3rem;
 }
 
 #section1 div p {
