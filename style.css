@@ -64,7 +64,6 @@ nav li:hover {
 }
 
 header {
-    /* background: url(./bg.jpg) no-repeat center center/cover; */
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -90,7 +89,7 @@ header .header-image{
     border-radius: 25px;
     padding: 0.8rem 1rem;
     margin: 2rem;
-    font-size: 1rem; 
+    font-size: 0.7rem; 
     margin-left: 0;
 }
 
@@ -252,6 +251,14 @@ hr{
     width: 30%;
 }
   
+#section4 i.fa-facebook{
+    color: rgb(3, 17, 80);
+}
+  
+#section4 i.fa-twitter{
+    color: rgb(7, 148, 184);
+}
+  
 #section4 .box4-wrap .box-info{
     width: 70%;
     text-align: left;
@@ -269,7 +276,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
 }
   
 #section5 .box-wrap{
@@ -294,7 +301,7 @@ hr{
 } 
   
 #section5 .i2{
-    width: 25%;
+    width: 90px;
     padding: 1rem;
     background: rgb(226, 6, 79);
     border-radius: 50%;
@@ -303,14 +310,17 @@ hr{
 
 #section5 .i2 i{
   color: rgb(255, 250, 250);
+  transform: rotate(180deg);
+  margin-bottom: 1rem;
 } 
 
 #section5 .i i{
     color: rgb(226, 6, 79);
+    margin-top: 1rem;
 } 
   
 #section5 .i{
-    width: 25%;
+    width: 90px;
     padding: 1rem;
     background: rgb(223, 220, 220);
     border-radius: 50%;
@@ -348,7 +358,11 @@ hr{
     margin: 0 0.5rem;
 }
    
-#section6 .box-image{
+#section6 .box-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
     margin-bottom: 2rem;
 }
    
@@ -375,6 +389,10 @@ hr{
 
 #section7 .section7 div{
     width: 50%;
+}
+
+#section7 .section7 .box2{
+    align-self: flex-start;
 }
 
 input, textarea{
@@ -437,5 +455,97 @@ footer .box2 .btn-red{
     width: auto;
     padding: 0.2rem 0.8rem;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 450px){
+    body {
+        font-size: 0.85rem;
+    }
+    nav {
+        justify-content: flex-start; 
+        margin-bottom: 2rem;
+    }
+    nav ul {
+        display: none; 
+    }
+    nav img{
+        margin-left: o; 
+    }
+    header{
+        display: block;
+        padding: 0 2rem;
+        text-align: left;
+        margin: 0;
+    }
+    header p{
+        text-align: left;
+    }
+    h1{
+        font-size: 1rem;
+        text-align: left;
+    }
+    .btn{
+        margin: 0.5rem 0;
+    }
+    hr{
+        display: none;
+    }
+    #section1{
+        text-align: left;
+        padding: 0 1rem;
+    }
+    #section1 .box1-wrap,  #section1 .box2-wrap{
+        display: block;
+        width: 100%;
+    }
+    #section1 .box1-wrap div,  #section1 .box2-wrap div{
+        width: 100%;
+        padding: 0 1rem;
+        margin: 1rem auto;
+    }
+    #section2{
+        display: block;
+        margin-bottom: 1rem;
+    }
+    #section2 .section2-info{
+        margin-left: 2rem;
+        width: 80%;
+    }
+    #section3, #section4, #section5, #section7{
+        padding: 1rem;
+        text-align: left;
+    }
+    #section3 .box-wrap, #section4 .section4, #section4 .box4-wrap{
+        display: block;
+        text-align: center;
+    }  
+    #section7 .section7 div, #section6 .box2 div, #section3 .box1-wrap, #section3 .box2-wrap, #section3 .box3-wrap{
+        width: 90%;
+        margin: auto;
+    }
+    #section3 .box1-wrap .box, #section3 .box3-wrap .box{
+        display: block;
+    }
+    #section6 .box-wrap, #section5 .box-wrap, #section4 .box4-wrap .box-info, #section4 .box4-wrap .box-image{
+        width: 80%;
+        text-align: left;
+    }
+    footer .footer, #section7 .section7, #section6 .box1, #section6 .box2, #section5 .section5{
+        display: block;
+        padding: 1rem;
+        text-align: center;
+    }
+    #section5 .fa{
+        padding-left: 1rem;
+    }
+    input, textarea{
+        width: 97%;
+    }
+    footer .box2 .p4, footer .footer div, .footer ul{
+        width: 90%;
+    }
+    footer div.p3{
+        display: none;
+    }
 }
 
