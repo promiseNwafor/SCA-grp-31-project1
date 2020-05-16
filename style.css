@@ -41,6 +41,7 @@ nav {
     align-items: center;
     position: sticky;
     padding: 1.5rem 0.5rem; 
+    margin-bottom: 3rem;
 }
 
 nav ul {
@@ -110,9 +111,9 @@ header .header-image{
 
 i{
     display: inline-block;
-    margin-bottom: 1rem;
     margin-left: 1rem;
-    width: 1.5rem;
+    padding-bottom: 1rem;
+    color: rgb(226, 6, 79);
 }
   
 #section1{
@@ -282,12 +283,39 @@ hr{
     box-shadow: 0 1px 10px 1px rgba(200, 200, 200, 0.6);
 }
   
+#section5 h3{
+    margin: 0.5rem 0;
+} 
+  
 #section5 .p1{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} 
   
+#section5 .i2{
+    width: 25%;
+    padding: 1rem;
+    background: rgb(226, 6, 79);
+    border-radius: 50%;
+    margin: 1rem auto;
+} 
+
+#section5 .i2 i{
+  color: rgb(255, 250, 250);
+} 
+
+#section5 .i i{
+    color: rgb(226, 6, 79);
+} 
+  
+#section5 .i{
+    width: 25%;
+    padding: 1rem;
+    background: rgb(223, 220, 220);
+    border-radius: 50%;
+    margin: 1rem auto;
+} 
 
 #section6 .section6{
     background: rgb(226, 6, 79);
@@ -323,6 +351,11 @@ hr{
 #section6 .box-image{
     margin-bottom: 2rem;
 }
+   
+#section6 i.i1{
+    color: rgb(255, 248, 248);
+    margin-top: 2rem;
+}
 
 #section7{
     background: rgb(255, 248, 248);
@@ -356,6 +389,17 @@ input, textarea{
     width: 97%;
 }
 
+#section1 i, #section3 i, #section5 i{
+    font-size: 1.5rem;
+}
+
+footer i, #section4 i{
+    margin-right: 1rem;
+}
+
+footer i{
+    color: inherit;
+}
 
 footer{
     width: 100%;
