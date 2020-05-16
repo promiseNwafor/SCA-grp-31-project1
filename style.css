@@ -33,7 +33,6 @@ p{
 .p2{
     padding: 1rem 0;
 }
-
   
 nav {
     width: 100%;
@@ -290,45 +289,109 @@ hr{
 }
   
 
-#section6{
+#section6 .section6{
     background: rgb(226, 6, 79);
     width: 100%;
     text-align: center;
-    padding-top: 3rem;
+    padding: 3rem;
+    margin-top: 3rem;
 }
   
-#section6 .box1{
+#section6 .box1, #section6 .box2{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+  
+#section6 .box2{
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+  
+#section6 .box2 div{
+    width: 50%;
+}
    
 #section6 .box-wrap{
     background: rgb(255, 250, 250);
     width: 33.3%;
-    padding: 1rem 5rem;
+    padding: 3rem 1rem;
     margin: 0 0.5rem;
 }
-  
-footer {
-    background: #152727;
-    color: #e4fcf9;
+   
+#section6 .box-image{
+    margin-bottom: 2rem;
+}
+
+#section7{
+    background: rgb(255, 248, 248);
+    width: 100%;
+    text-align: center;
+    padding: 3rem;
+    padding-bottom: 1rem;
+}
+
+#section7 .section7{
+    width: 100%;
+    text-align: left;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: flex-start;
-    padding: 2rem; 
 }
 
-footer h4 {
-    margin: 1rem 2rem; 
+#section7 .section7 div{
+    width: 50%;
 }
-footer img, footer li {
-    margin: 0.7rem; }
 
-footer .fa {
-    color: #e4fcf9;
-    font-size: 4rem;
-    width: 100px; 
+input, textarea{
+    display: inline-block;
+    margin: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    width: 47%;
 }
+
+#section7 .subject, textarea{
+    width: 97%;
+}
+
+
+footer{
+    width: 100%;
+    padding: 2rem;
+}
+  
+footer .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 1rem; 
+    border-bottom: 3px solid rgba(240, 238, 238, 0.6);
+}
+  
+footer .footer div, .footer ul{
+    width: 25%;
+}
+  
+footer .footer ul li{
+    margin: 0.5rem 0;
+}
+  
+footer .box2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+  
+footer .box2 .p3{
+    width: 33.3%;
+}
+  
+footer .box2 .btn-red{
+    width: auto;
+    padding: 0.2rem 0.8rem;
+    border-radius: 50%;
+}
+
