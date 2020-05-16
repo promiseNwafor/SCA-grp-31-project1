@@ -468,14 +468,15 @@ footer .box2 .btn-red{
     nav ul {
         display: none; 
     }
-    nav img{
-        margin-left: o; 
-    }
     header{
         display: block;
         padding: 0 2rem;
         text-align: left;
         margin: 0;
+        margin-bottom: 7rem;
+    }
+    header img, header .header-image{
+        width: 100%;
     }
     header p{
         text-align: left;
@@ -486,6 +487,8 @@ footer .box2 .btn-red{
     }
     .btn{
         margin: 0.5rem 0;
+        padding: 0.5rem;
+        font-size: 0.7rem;
     }
     hr{
         display: none;
@@ -498,7 +501,7 @@ footer .box2 .btn-red{
         display: block;
         width: 100%;
     }
-    #section1 .box1-wrap div,  #section1 .box2-wrap div{
+    #section4 .box4-wrap, #section1 .box1-wrap div,  #section1 .box2-wrap div{
         width: 100%;
         padding: 0 1rem;
         margin: 1rem auto;
@@ -507,9 +510,10 @@ footer .box2 .btn-red{
         display: block;
         margin-bottom: 1rem;
     }
-    #section2 .section2-info{
-        margin-left: 2rem;
+    #section3 .box-wrap .box div, #section2 .section2-info, #section2 .section2-image{
+        margin-left: 1rem;
         width: 80%;
+        text-align: center;
     }
     #section3, #section4, #section5, #section7{
         padding: 1rem;
