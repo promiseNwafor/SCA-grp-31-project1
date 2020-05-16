@@ -30,6 +30,10 @@ p{
     line-height: 2rem;
 }
 
+.p2{
+    padding: 1rem 0;
+}
+
   
 nav {
     width: 100%;
@@ -108,6 +112,8 @@ header .header-image{
 i{
     display: inline-block;
     margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 1.5rem;
 }
   
 #section1{
@@ -117,7 +123,7 @@ i{
 }
   
 hr{
-    width: 7%;
+    width: 5%;
     margin: 0.3rem auto;
     margin-bottom: 2rem;
     border-top: 1.5px solid rgb(226, 6, 79);
@@ -178,8 +184,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 1rem;
-    margin-bottom: 3rem;
+    padding: 2rem 0.5rem;
 }
   
 #section3 .box1-wrap, #section3 .box2-wrap, #section3 .box3-wrap{
@@ -208,6 +213,102 @@ hr{
     width: 70%;
     text-align: left;
     padding-left: 1rem;
+}
+
+#section3 .boxb div, i{
+    margin: 0.3rem 0;
+}
+
+#section3 i{
+  padding-right: 2rem;
+}
+
+#section4{
+    background: rgb(255, 248, 248);
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+}
+  
+#section4 .section4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+  
+#section4 .box4-wrap{
+    background: rgb(255, 250, 250);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 10px 1px rgba(200, 200, 200, 0.6);
+    margin-left: 1.8rem;
+}
+  
+#section4 .box4-wrap .box-image{
+    width: 30%;
+}
+  
+#section4 .box4-wrap .box-info{
+    width: 70%;
+    text-align: left;
+    margin: 1rem;
+}
+
+#section5{
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+}
+  
+#section5 .section5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+}
+  
+#section5 .box-wrap{
+    width: 33.3%;
+    padding: 1rem 5rem;
+    margin: 0 0.5rem;
+    box-shadow: 0 1px 10px 1px rgba(240, 238, 238, 0.6);
+}
+  
+#section5 .box-wrap:nth-child(2){
+    box-shadow: 0 1px 10px 1px rgba(200, 200, 200, 0.6);
+}
+  
+#section5 .p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+#section6{
+    background: rgb(226, 6, 79);
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+}
+  
+#section6 .box1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+#section6 .box-wrap{
+    background: rgb(255, 250, 250);
+    width: 33.3%;
+    padding: 1rem 5rem;
+    margin: 0 0.5rem;
 }
   
 footer {
